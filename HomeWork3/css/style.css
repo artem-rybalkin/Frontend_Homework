@@ -8,17 +8,28 @@ a {
 }
 /*BODY*/
 body {
-	width: 1072px;
+	width: 1366px;
+	height: 950px;
 	font-family: Tahoma;
+	background: #f9f9f9;
 	
+}
+
+.maket {
+	width: 1060px;
+	height: 950px;
+	margin-left: 155px;
+	box-shadow: 0px 0px 0px 2px #dddddd;
+	background: #ffffff;
 }
 
 /*HEADER*/
 header {
-	margin-left: 40px;
+	margin-left: 47px;
 }
 .logo {
-	margin: 50px 0px;
+	padding-top: 50px;
+	margin-bottom: 43px;
 	height: 40px;
 	width: 966px;
 	font-size: 40px;
@@ -32,7 +43,7 @@ header {
 }
 .menu-line, .footer-line {
 
-	width: 100px;
+	width: 145px;
 	height: 40px;
 	display: table-cell;
 	text-align: center;
@@ -44,6 +55,11 @@ header {
 }
 .menu-line:hover {
 	background-color: #464646;
+	border:1px solid #838383;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: solid ;
+	border-right-style: solid;
 }
 
 	
@@ -51,14 +67,19 @@ header {
 	
 .left_menu {
 	
-	width: 240px;
-	margin-left: 40px;
+	width: 200px;
+	margin-left: 47px;
 	margin-top: 48px;
 
 }
 .left_menu_list {
-	height: 40px;
+	display: block;
+	width: 200px;
 	color: black;
+	border: 1px solid #c8c8c8;
+	padding-left: 24px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .left_menu_list a {
 	
@@ -68,19 +89,24 @@ header {
 .left_menu_list a:hover {
 	
 	padding-left: 12px;
+	background: #f9f9f9;
 }
 /*Content*/
 
 img {
 	float: right;
-	margin-right: 148px;
+	margin-top: 40px;
+	margin-right: 50px;
 
 }
 
 .text {
-	margin-left: 280px;
-	margin-top: 100px;
-	margin-right: 73px;
+	height: 140px;
+	/*width: 630px;*/
+	margin-left: 350px;
+	margin-top: 50px;
+	font-size: 14px;
+	margin-right: 50px;
 }
 
 /*FOOTER*/
@@ -89,8 +115,8 @@ footer {
 	height: 40px;
 	width: 966px;
 	margin-right: 48px;
-	margin-left: 40px;
-	margin-top: 40px;
+	margin-left: 47px;
+	margin-top: 65px;
 	margin-bottom: 60px;
 	background: #e1e1e1;
 }
